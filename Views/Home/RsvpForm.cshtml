@@ -7,38 +7,46 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>RsvpForm</title>
 </head>
 <body>
     <br />
-    <div>
-        <!--<form method="post" action="/Home/RsvpForm">-->
-        <form asp-action="RsvpForm" method="post">
-            <p>
-                <!--<label for="Name"></label>-->
-                <label asp-for="Name">Escriba su nombre:</label>
-                <!--<input type="text" id="Name" name="Name" />-->
-                <input asp-for="Name" />
-            </p>
-            <p>
-                <label asp-for="Email">Escriba su correo electronico:</label>
-                <input asp-for="Email" />
-            </p>
-            <p>
-                <label asp-for="Phone">Escriba su telefono:</label>
-                <input asp-for="Phone" />
-            </p>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>RSVP</h4></div>
+        <div class="panel-body">
+            <!--<form method="post" action="/Home/RsvpForm">-->
+            <form class="p-a-1" asp-action="RsvpForm" method="post">
+                <div asp-validation-summary="All"></div>
+                <div class="form-group">
+                    <!--<label for="Name"></label>-->
+                    <label asp-for="Name">Escriba su nombre:</label>
+                    <!--<input type="text" id="Name" name="Name" />-->
+                    <input asp-for="Name" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email">Escriba su correo electronico:</label>
+                    <input asp-for="Email" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone">Escriba su telefono:</label>
+                    <input asp-for="Phone" />
+                </div>
 
-            <p>
-                <label>Vas a asistir?</label>
-                <select asp-for="WillAttend">
-                    <option value="">Elegir una opcion</option>
-                    <option value="true">Si, Yo estare en la fiesta</option>
-                    <option value="false">No, Yo no puedo ir a la fiesta</option>
-                </select>
-            </p>
-            <button type="submit">Submit RSVP</button>
-        </form>
+                <div class="form-group">
+                    <label>Vas a asistir?</label>
+                    <select class="form-control"  asp-for="WillAttend">
+                        <option value="">Elegir una opcion</option>
+                        <option value="true">Si, Yo estare en la fiesta</option>
+                        <option value="false">No, Yo no puedo ir a la fiesta</option>
+                    </select>
+                </div>
+                <div class="text-center">
+                    <button type="submit">Submit RSVP</button>
+                </div>
+
+            </form>
+        </div>
     </div>
 </body>
 </html>
