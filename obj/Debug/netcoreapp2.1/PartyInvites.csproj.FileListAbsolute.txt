@@ -35,3 +35,5 @@ C:\Users\Reinis\source\repos\PartyInvites\obj\Debug\netcoreapp2.1\PartyInvites.g
 C:\Users\Reinis\source\repos\PartyInvites\obj\Debug\netcoreapp2.1\PartyInvites.csproj.CopyComplete
 C:\Users\Reinis\source\repos\PartyInvites\obj\Debug\netcoreapp2.1\Razor\Views\Home\MyView.cshtml.g.cs
 C:\Users\Reinis\source\repos\PartyInvites\obj\Debug\netcoreapp2.1\Razor\Views\Home\RsvpForm.cshtml.g.cs
+C:\Users\Reinis\source\repos\PartyInvites\obj\Debug\netcoreapp2.1\Razor\Views\Home\Thanks.cshtml.g.cs
+C:\Users\Reinis\source\repos\PartyInvites\obj\Debug\netcoreapp2.1\Razor\Views\Home\ListResponses.cshtml.g.cs

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using PartyInvites.Models;
 
 namespace PartyInvites.Controllers
 {
@@ -25,5 +26,19 @@ namespace PartyInvites.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ViewResult RsvpForm(GuestResponse oGuestResponse)
+        {
+            Repository.AddResponse(oGuestResponse);
+
+            return View("Thanks",oGuestResponse);
+        }
+
+        public ViewResult ListResponses()
+        {
+            return View(Repository.Responses.Where(r => r.WillAttend == true));
+        }
+
     }
 }
