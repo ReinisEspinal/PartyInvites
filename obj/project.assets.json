@@ -12659,11 +12659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Reinis\\source\\repos\\PartyInvites\\PartyInvites.csproj",
+      "projectUniqueName": "D:\\CONIN\\TECNOLOGO PROGRAMACION .NET\\Primera clase\\Tareas\\PartyInvites\\PartyInvites.csproj",
       "projectName": "PartyInvites",
-      "projectPath": "C:\\Users\\Reinis\\source\\repos\\PartyInvites\\PartyInvites.csproj",
+      "projectPath": "D:\\CONIN\\TECNOLOGO PROGRAMACION .NET\\Primera clase\\Tareas\\PartyInvites\\PartyInvites.csproj",
       "packagesPath": "C:\\Users\\Reinis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Reinis\\source\\repos\\PartyInvites\\obj\\",
+      "outputPath": "D:\\CONIN\\TECNOLOGO PROGRAMACION .NET\\Primera clase\\Tareas\\PartyInvites\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

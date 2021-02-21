@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FWYYkI9X6b8nkSsTnkx1Xa2uYOW7HwEfz1lrX7sWS2VaVk+MrvRodmkGnao999Te3GAUpeUcxaYidYK5bpNjpw==",
+  "dgSpecHash": "BZRsxUL5UpytjsmcryX36pXSViVkjDe0gDnBUP6SssKwI+QXsmtZInFQBc4MQEg8jUdFPQ98PK574lDFXQlgjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reinis\\source\\repos\\PartyInvites\\PartyInvites.csproj",
+  "projectFilePath": "D:\\CONIN\\TECNOLOGO PROGRAMACION .NET\\Primera clase\\Tareas\\PartyInvites\\PartyInvites.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reinis\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Reinis\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
